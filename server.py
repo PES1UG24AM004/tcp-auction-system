@@ -15,7 +15,7 @@ clients_lock  = threading.Lock()
 server_running = True
 
 
-# make_certificate
+#make_certificate
 def make_certificate():
     if os.path.exists(CERT_FILE) and os.path.exists(KEY_FILE):
         return
