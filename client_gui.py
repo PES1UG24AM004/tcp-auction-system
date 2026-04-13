@@ -769,7 +769,7 @@ class AuctionApp(tk.Tk):
         self.client.disconnect()
         self.destroy()
 
-
+# main loop
 if __name__ == "__main__":
     app = AuctionApp()
     app.protocol("WM_DELETE_WINDOW", app.on_close)
